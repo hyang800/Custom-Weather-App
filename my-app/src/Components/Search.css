@@ -1,0 +1,79 @@
+@import "https://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css";
+@import "https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css";
+
+
+#outerbox{
+  border: 1.5px solid rgb(239, 237, 237);
+  border-radius: 10px;
+  
+}
+.nav-tabs{
+  color: black;
+}
+.nav-link{
+  background-color: white;
+}
+.nav-link.active{
+  color: pink;
+  border: 1.4px solid black;
+}
+.nav-item.show {
+  background-color: white;
+}
+
+.nav-link:hover{
+  color: black;
+  background-color: white;
+  border: none;
+}
+
+.nav-link:focus{
+  border: 1.4px solid black;
+  outline: none;
+}
+.form-group label:after {
+    content: ' *';
+    color: red;
+    font-size: 150%;
+}
+
+
+#tweet {
+    width: 38px;
+    height: 38px;
+  }
+  
+  .tweet {
+    padding: 0;
+  }
+  
+  .left {
+    float: left;
+  }
+  
+  .right {
+    float: right;
+  }
+  
+  .favorited {
+    color: rgb(253, 208, 58);
+  }
+  
+  .btn-outline {
+    border: 0px;
+    background-color: rgb(247, 248, 249);
+  }
+  
+  
+  i.material-icons 
+  {
+    top: -1px;
+    vertical-align: middle;
+    position: relative;
+  }
+  
+  .fa-star
+  {
+    color:yellow;
+  }
+  
