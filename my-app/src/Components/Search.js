@@ -19,8 +19,8 @@ function Search() {
     )
     
     const [checked, setchecked] = useState(false)
-    const geo_url = 'https://maps.googleapis.com/maps/api/geocode/json?address=' + state.street.split(' ').join('+') + ',' + state.city.split(' ').join('+') + state.state +'&key=AIzaSyCb8YZ48nreVDsgIuhMwpudMeqmbC8nsvw'
-    const ip_url = 'https://ipinfo.io/?token=1e0ade3f97e21f'
+    const geo_url = 'https://maps.googleapis.com/maps/api/geocode/json?address=' + state.street.split(' ').join('+') + ',' + state.city.split(' ').join('+') + state.state +'&key=xxxxxxxxxxxxxxxx'
+    const ip_url = 'https://ipinfo.io/?token=xxxxxxxxxxxxxxxx'
 
     const [resData, setresData] = useState([])
 
@@ -285,7 +285,7 @@ function Search() {
     //Google Map
     //console.log(latlng)
     function toGooglesrc(lat,lng){
-        return 'https://www.google.com/maps/embed/v1/place?key=AIzaSyCb8YZ48nreVDsgIuhMwpudMeqmbC8nsvw&center='+lat+','+lng+'&zoom=17&q=' +lat+','+lng
+        return 'https://www.google.com/maps/embed/v1/place?key=xxxxxxxxxxxxxxxx&center='+lat+','+lng+'&zoom=17&q=' +lat+','+lng
     }
     //console.log(toGooglesrc(latlng.lat,latlng.lng))
     //console.log(isGeo,submitted,isPbar)
