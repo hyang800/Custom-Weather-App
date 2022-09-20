@@ -13,7 +13,7 @@ app.get('/results', (req, res) => {
     const lat_lng_dict = {'lat':req.query.lat, 'lng':req.query.lng}
     const options = {
         method: 'GET',
-        url:'https://api.tomorrow.io/v4/timelines?location='+ req.query.lat +','+ req.query.lng +'&fields=weatherCode,temperatureMin,temperatureMax,windSpeed,temperature,temperatureApparent,sunriseTime,sunsetTime,humidity,visibility,cloudCover&timesteps=1d&units=imperial&timezone=America/Los_Angeles&apikey=T3wLVzq1k3Z3U5pNisxajbhfqCdZLBAb'
+        url:'https://api.tomorrow.io/v4/timelines?location='+ req.query.lat +','+ req.query.lng +'&fields=weatherCode,temperatureMin,temperatureMax,windSpeed,temperature,temperatureApparent,sunriseTime,sunsetTime,humidity,visibility,cloudCover&timesteps=1d&units=imperial&timezone=America/Los_Angeles&apikey=xxxxxxxxxxxxxxxx'
     }
     axios.request(options).then((response) => {
         var result_list = [];
